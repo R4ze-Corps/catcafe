@@ -11,7 +11,7 @@ export default function Home() {
             <h1 className="text-5xl md:text-7xl font-bold tracking-wider leading-none mb-2">
               <span className="text-pink text-6xl md:text-8xl">UWU</span>
               <br />
-              <span className="text-white">CAFÉ</span>
+              <span className="text-rose-light">CAFÉ</span>
             </h1>
             <Link
               href="/contact"
