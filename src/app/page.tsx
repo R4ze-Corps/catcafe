@@ -5,7 +5,7 @@ import { events } from "@/data/events";
 export default function Home() {
   return (
     <>
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-rose">
+      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
         <div className="relative z-10 text-center px-4 max-w-3xl mx-auto">
           <Image
             src="/logo.png"
@@ -38,7 +38,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-rose">
+      <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             {
@@ -91,7 +91,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-rose border-t border-pink/20">
+      <section className="py-20 px-4 border-t border-pink/20">
         <div className="max-w-xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-pink mb-10">Próximo Evento</h2>
           <div className="rounded-2xl border border-pink/20 bg-rose-light p-8 hover:bg-rose-light hover:border-pink/40 transition-all">
