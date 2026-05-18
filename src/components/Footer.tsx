@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
           <Image
-            src="/logo.png"
+            src="/cabecalho.png"
             alt="Cat Café"
             width={140}
             height={35}

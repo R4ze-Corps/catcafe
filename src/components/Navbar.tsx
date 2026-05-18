@@ -19,7 +19,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <Image
-            src="/logo.png"
+            src="/cabecalho.png"
             alt="Cat Café"
             width={120}
             height={30}
