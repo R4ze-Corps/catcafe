@@ -17,10 +17,55 @@ body {
   background-image:
     url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
     url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=bbbbbb'),
-    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa');
-  background-repeat: repeat;
-  background-position: 0 0, 42px 28px, 85px 60px;
-  background-size: 140px, 136px, 144px;
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=bbbbbb'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=bbbbbb'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=bbbbbb'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=bbbbbb'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=bbbbbb'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=bbbbbb'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=bbbbbb'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=bbbbbb'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=bbbbbb'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=bbbbbb'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=bbbbbb'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=bbbbbb'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=bbbbbb'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=bbbbbb'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=bbbbbb'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=bbbbbb'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=bbbbbb'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=bbbbbb'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=bbbbbb');
+  background-repeat: no-repeat;
+  background-position:
+    3% 8%, 12% 25%, 22% 5%, 30% 18%, 40% 10%,
+    50% 3%, 60% 15%, 70% 8%, 78% 22%, 88% 5%,
+    15% 40%, 25% 55%, 35% 35%, 45% 65%, 55% 45%,
+    65% 30%, 75% 60%, 85% 50%, 92% 70%, 8% 75%,
+    18% 85%, 28% 95%, 38% 78%, 48% 90%, 58% 80%,
+    68% 92%, 78% 85%, 88% 95%, 95% 88%, 5% 50%,
+    42% 20%, 72% 40%, 52% 70%, 82% 15%, 35% 88%,
+    62% 55%, 45% 82%, 20% 65%, 90% 35%, 10% 90%;
+  background-size: 18px;
   color: var(--color-ink);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
