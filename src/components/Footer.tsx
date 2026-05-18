@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -5,9 +6,13 @@ export default function Footer() {
     <footer className="border-t border-pink/30 bg-rose-light/60">
       <div className="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
-          <h3 className="text-ink font-bold text-lg tracking-wider mb-3">
-            CAT CAFÉ
-          </h3>
+          <Image
+            src="/logo.png"
+            alt="Cat Café"
+            width={140}
+            height={35}
+            className="h-9 w-auto mb-3"
+          />
           <p className="text-muted text-sm leading-relaxed">
             O café mais gato da cidade. Venha tomar um café e fazer novos
             amigos felinos.

@@ -12,14 +12,11 @@ export default function Home() {
           <Image
             src="/logo.png"
             alt="Cat Café"
-            width={200}
-            height={50}
+            width={280}
+            height={70}
             className="mx-auto mb-8 h-auto w-auto"
             priority
           />
-          <h1 className="text-5xl md:text-7xl font-bold tracking-wider text-pink mb-6">
-            CAT CAFÉ
-          </h1>
           <p className="text-xl md:text-2xl text-pink-light mb-4">
             O café mais gato da cidade
           </p>

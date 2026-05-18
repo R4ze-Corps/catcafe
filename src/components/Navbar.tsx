@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 const links = [
@@ -16,8 +17,15 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-rose/80 backdrop-blur-md border-b border-pink/30">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-        <Link href="/" className="text-2xl font-bold tracking-widest text-pink">
-          CAT CAFÉ
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/logo.png"
+            alt="Cat Café"
+            width={120}
+            height={30}
+            className="h-8 w-auto"
+            priority
+          />
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
