@@ -5,37 +5,39 @@ import { events } from "@/data/events";
 export default function Home() {
   return (
     <>
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
-        <div className="relative z-10 text-center px-4 max-w-3xl mx-auto">
-          <div className="flex justify-end">
+      <section className="relative min-h-[90vh] flex items-center overflow-hidden">
+        <div className="relative z-10 w-full max-w-6xl mx-auto px-4 flex items-center justify-between gap-12">
+          <div className="flex-1">
+            <p className="text-xl md:text-2xl text-pink mb-4">
+              O café mais gato da cidade
+            </p>
+            <p className="text-muted mb-10 max-w-lg leading-relaxed">
+              Café especial, gatos adoráveis e um ambiente aconchegante. O lugar perfeito para relaxar e se apaixonar.
+            </p>
+            <div className="flex flex-col sm:flex-row items-start gap-4">
+              <Link
+                href="/events"
+                className="px-8 py-3 bg-pink text-rose font-semibold rounded-full hover:bg-pink-light transition-colors tracking-wider uppercase text-sm"
+              >
+                Próximos Eventos
+              </Link>
+              <Link
+                href="/contact"
+                className="px-8 py-3 border border-pink text-pink rounded-full hover:bg-pink/20 transition-colors tracking-wider uppercase text-sm"
+              >
+                Faça Parte do Time
+              </Link>
+            </div>
+          </div>
+          <div className="shrink-0">
             <Image
               src="/logo.png"
               alt="Cat Café"
               width={300}
               height={75}
-              className="mb-6 h-auto w-auto"
+              className="h-auto w-auto"
               priority
             />
-          </div>
-          <p className="text-xl md:text-2xl text-pink mb-4">
-            O café mais gato da cidade
-          </p>
-          <p className="text-muted mb-10 max-w-lg mx-auto leading-relaxed">
-            Café especial, gatos adoráveis e um ambiente aconchegante. O lugar perfeito para relaxar e se apaixonar.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link
-              href="/events"
-              className="px-8 py-3 bg-pink text-rose font-semibold rounded-full hover:bg-pink-light transition-colors tracking-wider uppercase text-sm"
-            >
-              Próximos Eventos
-            </Link>
-            <Link
-              href="/contact"
-              className="px-8 py-3 border border-pink text-pink rounded-full hover:bg-pink/20 transition-colors tracking-wider uppercase text-sm"
-            >
-              Faça Parte do Time
-            </Link>
           </div>
         </div>
       </section>
