@@ -5,9 +5,7 @@ import { events } from "@/data/events";
 export default function Home() {
   return (
     <>
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-pink/80 via-pink/40 to-rose" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_#e07a5f_0%,_transparent_70%)] opacity-30" />
+      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-pink">
         <div className="relative z-10 text-center px-4 max-w-3xl mx-auto">
           <Image
             src="/logo.png"
@@ -17,10 +15,10 @@ export default function Home() {
             className="mx-auto mb-8 h-auto w-auto"
             priority
           />
-          <p className="text-xl md:text-2xl text-pink-light mb-4">
+          <p className="text-xl md:text-2xl text-rose mb-4">
             O café mais gato da cidade
           </p>
-          <p className="text-pink/70 mb-10 max-w-lg mx-auto leading-relaxed">
+          <p className="text-rose/70 mb-10 max-w-lg mx-auto leading-relaxed">
             Café especial, gatos adoráveis e um ambiente aconchegante. O lugar perfeito para relaxar e se apaixonar.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -32,7 +30,7 @@ export default function Home() {
             </Link>
             <Link
               href="/contact"
-              className="px-8 py-3 border border-rose text-pink-light rounded-full hover:bg-rose/20 transition-colors tracking-wider uppercase text-sm"
+              className="px-8 py-3 border border-rose text-rose rounded-full hover:bg-rose/20 transition-colors tracking-wider uppercase text-sm"
             >
               Faça sua Reserva
             </Link>
