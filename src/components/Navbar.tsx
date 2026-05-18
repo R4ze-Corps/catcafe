@@ -14,7 +14,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-rose/80 backdrop-blur-md border-b border-pink/30">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-ink/80 backdrop-blur-md border-b border-pink/30">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="text-2xl font-bold tracking-widest text-pink">
           CAT CAFÉ
@@ -25,7 +25,7 @@ export default function Navbar() {
             <Link
               key={l.href}
               href={l.href}
-              className="text-sm uppercase tracking-widest text-muted hover:text-pink transition-colors"
+              className="text-sm uppercase tracking-widest text-rose hover:text-pink transition-colors"
             >
               {l.label}
             </Link>
@@ -34,7 +34,7 @@ export default function Navbar() {
 
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden text-muted hover:text-pink"
+          className="md:hidden text-rose hover:text-pink"
           aria-label="Menu"
         >
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -48,14 +48,14 @@ export default function Navbar() {
       </div>
 
       {open && (
-        <div className="md:hidden bg-rose/95 border-t border-pink/30">
+        <div className="md:hidden bg-ink/95 border-t border-pink/30">
           <div className="flex flex-col items-center gap-4 py-6">
             {links.map((l) => (
               <Link
                 key={l.href}
                 href={l.href}
                 onClick={() => setOpen(false)}
-                className="text-sm uppercase tracking-widest text-muted hover:text-pink transition-colors"
+                className="text-sm uppercase tracking-widest text-rose hover:text-pink transition-colors"
               >
                 {l.label}
               </Link>
