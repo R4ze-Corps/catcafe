@@ -3,20 +3,18 @@
 @theme inline {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --color-blush: #fdf2f8;
-  --color-blush-light: #fff5fa;
-  --color-pink: #f472b6;
-  --color-pink-light: #f9a8d4;
-  --color-pink-deep: #fce7f3;
-  --color-brown: #6b4f4f;
-  --color-brown-dark: #3d2c2c;
-  --color-mint: #81b29a;
-  --color-sage: #a8c5b5;
+  --color-rose: #fce4ec;
+  --color-rose-light: #f8bbd0;
+  --color-pink: #ec407a;
+  --color-pink-light: #f06292;
+  --color-pink-dark: #d81b60;
+  --color-ink: #0a0a0a;
+  --color-muted: #4a4a4a;
 }
 
 body {
-  background: var(--color-blush);
-  color: var(--color-brown-dark);
+  background: var(--color-rose);
+  color: var(--color-ink);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
 
@@ -24,12 +22,12 @@ body {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #fdf2f8;
+  background: #fce4ec;
 }
 ::-webkit-scrollbar-thumb {
-  background: #f472b6;
+  background: #ec407a;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #f9a8d4;
+  background: #f06292;
 }
