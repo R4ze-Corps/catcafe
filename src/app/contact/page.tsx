@@ -1,12 +1,12 @@
 export default function ContactPage() {
   return (
-    <div className="min-h-screen py-20 px-4 bg-ink">
+    <div className="min-h-screen py-20 px-4 bg-rose">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-pink mb-4">
             Contato
           </h1>
-          <p className="text-rose max-w-lg mx-auto">
+          <p className="text-muted max-w-lg mx-auto">
             Faça sua reserva, tire dúvidas ou agende uma visita. Estamos prontos
             para receber você e seu novo amigo felino.
           </p>
@@ -29,7 +29,7 @@ export default function ContactPage() {
                 </svg>
               </div>
               <div>
-                <p className="text-rose text-xs uppercase tracking-widest mb-1">
+                <p className="text-muted text-xs uppercase tracking-widest mb-1">
                   Discord
                 </p>
                 <a
@@ -57,7 +57,7 @@ export default function ContactPage() {
                 </svg>
               </div>
               <div>
-                <p className="text-rose text-xs uppercase tracking-widest mb-1">
+                <p className="text-muted text-xs uppercase tracking-widest mb-1">
                   Telefone
                 </p>
                 <div className="space-y-1">
@@ -87,7 +87,7 @@ export default function ContactPage() {
                 </svg>
               </div>
               <div>
-                <p className="text-rose text-xs uppercase tracking-widest mb-1">
+                <p className="text-muted text-xs uppercase tracking-widest mb-1">
                   Funcionamento
                 </p>
                 <p className="text-pink">Seg-Dom: 09:00 | 22:00</p>
@@ -95,7 +95,7 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <div className="rounded-2xl border-2 border-pink/40 bg-ink-light p-8 flex flex-col items-center text-center">
+          <div className="rounded-2xl border-2 border-pink/40 bg-rose-light p-8 flex flex-col items-center text-center">
             <div className="w-16 h-16 rounded-full bg-pink/20 flex items-center justify-center text-pink mb-5">
               <svg
                 width="28"
@@ -113,18 +113,18 @@ export default function ContactPage() {
             <h2 className="text-2xl font-bold text-pink mb-2">
               Estamos Contratando
             </h2>
-            <p className="text-rose mb-6">
+            <p className="text-muted mb-6">
               Faça parte da equipe Cat Café. Vagas abertas para:
             </p>
             <div className="space-y-3 w-full">
-              <div className="py-3 px-4 rounded-xl border border-pink/20 bg-ink-light text-pink font-medium">
+              <div className="py-3 px-4 rounded-xl border border-pink/20 bg-rose-light text-pink font-medium">
                 Barista
               </div>
-              <div className="py-3 px-4 rounded-xl border border-pink/20 bg-ink-light text-pink font-medium">
+              <div className="py-3 px-4 rounded-xl border border-pink/20 bg-rose-light text-pink font-medium">
                 Cuidador de Gatos
               </div>
             </div>
-            <p className="text-rose text-sm mt-6">
+            <p className="text-muted text-sm mt-6">
               Candidate-se pelo Discord com sua apresentação.
             </p>
           </div>

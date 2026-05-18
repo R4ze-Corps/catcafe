@@ -3,17 +3,18 @@
 @theme inline {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --color-ink: #0a0a0a;
-  --color-ink-light: #1a1a1a;
-  --color-pink: #ec407a;
-  --color-pink-light: #f06292;
   --color-rose: #fce4ec;
   --color-rose-light: #f8bbd0;
+  --color-pink: #ec407a;
+  --color-pink-light: #f06292;
+  --color-pink-dark: #d81b60;
+  --color-ink: #0a0a0a;
+  --color-muted: #4a4a4a;
 }
 
 body {
-  background: var(--color-ink);
-  color: var(--color-rose);
+  background: var(--color-rose);
+  color: var(--color-ink);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
 
@@ -21,7 +22,7 @@ body {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #0a0a0a;
+  background: #fce4ec;
 }
 ::-webkit-scrollbar-thumb {
   background: #ec407a;
