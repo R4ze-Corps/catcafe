@@ -32,7 +32,7 @@ export default function Home() {
               href="/contact"
               className="px-8 py-3 border border-pink text-pink rounded-full hover:bg-pink/20 transition-colors tracking-wider uppercase text-sm"
             >
-              Faça sua Reserva
+              Faça Parte do Time
             </Link>
           </div>
         </div>
