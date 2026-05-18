@@ -10,7 +10,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_#e07a5f_0%,_transparent_70%)] opacity-30" />
         <div className="relative z-10 text-center px-4 max-w-3xl mx-auto">
           <Image
-            src="/cabecalho.png"
+            src="/logo.png"
             alt="Cat Café"
             width={280}
             height={70}
