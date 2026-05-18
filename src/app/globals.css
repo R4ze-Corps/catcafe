@@ -53,7 +53,7 @@ body {
     65% 30%, 75% 60%, 85% 50%, 92% 70%, 8% 75%,
     18% 85%, 28% 95%, 38% 78%, 48% 90%, 58% 80%,
     68% 92%, 78% 85%, 88% 95%, 95% 88%, 5% 50%;
-  background-size: 18px;
+  background-size: 30px;
   color: var(--color-ink);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
