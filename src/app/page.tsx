@@ -13,20 +13,12 @@ export default function Home() {
               <br />
               <span className="text-white">CAFÉ</span>
             </h1>
-            <div className="flex flex-col sm:flex-row items-start gap-4">
-              <Link
-                href="/events"
-                className="px-8 py-3 bg-pink text-rose font-semibold rounded-full hover:bg-pink-light transition-colors tracking-wider uppercase text-sm"
-              >
-                Próximos Eventos
-              </Link>
-              <Link
-                href="/contact"
-                className="px-8 py-3 border border-pink text-pink rounded-full hover:bg-pink/20 transition-colors tracking-wider uppercase text-sm"
-              >
-                Faça Parte do Time
-              </Link>
-            </div>
+            <Link
+              href="/contact"
+              className="inline-block px-8 py-3 bg-pink text-white font-semibold rounded-full hover:bg-pink-light transition-colors tracking-wider uppercase text-sm"
+            >
+              Faça Parte do Time
+            </Link>
           </div>
           <div className="shrink-0">
             <Image
