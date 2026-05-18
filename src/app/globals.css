@@ -13,10 +13,17 @@
 }
 
 body {
-  background-image: url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=000000');
-  background-repeat: repeat;
-  background-size: 40px;
   background-color: var(--color-rose);
+  background-image:
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa'),
+    url('https://img.icons8.com/?size=100&id=tsuwzqbVG1np&format=png&color=aaaaaa');
+  background-repeat: no-repeat;
+  background-position: 8% 12%, 75% 8%, 55% 45%, 15% 72%, 88% 82%, 35% 90%;
+  background-size: 28px, 22px, 32px, 25px, 30px, 20px;
   color: var(--color-ink);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
