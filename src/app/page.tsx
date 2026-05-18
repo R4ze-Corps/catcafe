@@ -101,7 +101,7 @@ export default function Home() {
           </div>
           <Link
             href="/events"
-            className="mt-8 inline-block px-8 py-3 bg-pink text-ink font-semibold rounded-full hover:bg-pink-light transition-colors uppercase text-sm tracking-wider"
+            className="mt-8 inline-block px-8 py-3 bg-pink text-white font-semibold rounded-full hover:bg-pink-light transition-colors uppercase text-sm tracking-wider"
           >
             Ver Programação Completa
           </Link>
