@@ -21,9 +21,9 @@ export default function Navbar() {
           <Image
             src="/cabecalho.png"
             alt="Cat Café"
-            width={120}
-            height={30}
-            className="h-8 w-auto"
+            width={90}
+            height={22}
+            className="h-6 w-auto"
             priority
           />
         </Link>

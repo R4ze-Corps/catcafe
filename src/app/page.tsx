@@ -10,9 +10,9 @@ export default function Home() {
           <Image
             src="/logo.png"
             alt="Cat Café"
-            width={280}
-            height={70}
-            className="mx-auto mb-8 h-auto w-auto"
+            width={200}
+            height={50}
+            className="mx-auto mb-6 h-auto w-auto"
             priority
           />
           <p className="text-xl md:text-2xl text-rose mb-4">
