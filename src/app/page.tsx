@@ -5,7 +5,7 @@ import { events } from "@/data/events";
 export default function Home() {
   return (
     <>
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-pink">
+      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-rose">
         <div className="relative z-10 text-center px-4 max-w-3xl mx-auto">
           <Image
             src="/logo.png"
@@ -15,22 +15,22 @@ export default function Home() {
             className="mx-auto mb-6 h-auto w-auto"
             priority
           />
-          <p className="text-xl md:text-2xl text-rose mb-4">
+          <p className="text-xl md:text-2xl text-pink mb-4">
             O café mais gato da cidade
           </p>
-          <p className="text-rose/70 mb-10 max-w-lg mx-auto leading-relaxed">
+          <p className="text-muted mb-10 max-w-lg mx-auto leading-relaxed">
             Café especial, gatos adoráveis e um ambiente aconchegante. O lugar perfeito para relaxar e se apaixonar.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href="/events"
-              className="px-8 py-3 bg-rose text-pink font-semibold rounded-full hover:bg-rose-light transition-colors tracking-wider uppercase text-sm"
+              className="px-8 py-3 bg-pink text-rose font-semibold rounded-full hover:bg-pink-light transition-colors tracking-wider uppercase text-sm"
             >
               Próximos Eventos
             </Link>
             <Link
               href="/contact"
-              className="px-8 py-3 border border-rose text-rose rounded-full hover:bg-rose/20 transition-colors tracking-wider uppercase text-sm"
+              className="px-8 py-3 border border-pink text-pink rounded-full hover:bg-pink/20 transition-colors tracking-wider uppercase text-sm"
             >
               Faça sua Reserva
             </Link>
