@@ -13,7 +13,10 @@
 }
 
 body {
-  background: var(--color-rose);
+  background-color: var(--color-rose);
+  background-image: url('/pata.png');
+  background-repeat: repeat;
+  background-size: 60px;
   color: var(--color-ink);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
