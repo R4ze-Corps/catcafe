@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
 import { events } from "@/data/events";
+import CombosCarousel from "@/components/CombosCarousel";
 
 export default function Home() {
   return (
@@ -20,16 +20,7 @@ export default function Home() {
               Faça Parte do Time
             </Link>
           </div>
-          <div className="shrink-0">
-            <Image
-              src="/logo.png"
-              alt="Cat Café"
-              width={300}
-              height={75}
-              className="h-auto w-auto"
-              priority
-            />
-          </div>
+          <CombosCarousel />
         </div>
       </section>
 
