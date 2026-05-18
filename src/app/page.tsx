@@ -7,14 +7,16 @@ export default function Home() {
     <>
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
         <div className="relative z-10 text-center px-4 max-w-3xl mx-auto">
-          <Image
-            src="/logo.png"
-            alt="Cat Café"
-            width={200}
-            height={50}
-            className="mx-auto mb-6 h-auto w-auto"
-            priority
-          />
+          <div className="flex justify-end">
+            <Image
+              src="/logo.png"
+              alt="Cat Café"
+              width={300}
+              height={75}
+              className="mb-6 h-auto w-auto"
+              priority
+            />
+          </div>
           <p className="text-xl md:text-2xl text-pink mb-4">
             O café mais gato da cidade
           </p>
