@@ -1,37 +1,11 @@
 import Link from "next/link";
-import Image from "next/image";
 import { events } from "@/data/events";
+import HeroCarousel from "@/components/HeroCarousel";
 
 export default function Home() {
   return (
     <>
-      <section className="relative min-h-[90vh] flex items-center overflow-hidden">
-        <div className="relative z-10 w-full max-w-6xl mx-auto px-4 flex items-center justify-between gap-12">
-          <div className="flex-1">
-            <h1 className="text-5xl md:text-7xl font-bold tracking-wider leading-none mb-2">
-              <span className="text-pink text-6xl md:text-8xl">UWU</span>
-              <br />
-              <span className="text-rose-light">CAT CAFÉ</span>
-            </h1>
-            <Link
-              href="/contact"
-              className="inline-block px-8 py-3 bg-pink text-white font-semibold rounded-full hover:bg-pink-light transition-colors tracking-wider uppercase text-sm"
-            >
-              Faça Parte do Time
-            </Link>
-          </div>
-          <div className="shrink-0">
-            <Image
-              src="/logo.png"
-              alt="Cat Café"
-              width={300}
-              height={75}
-              className="h-auto w-auto"
-              priority
-            />
-          </div>
-        </div>
-      </section>
+      <HeroCarousel />
 
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
