@@ -7,15 +7,15 @@ export interface Event {
 
 export const events: Event[] = [
   {
-    date: "INDEFINIDA",
-    title: "Festa das Máscaras",
-    desc: "A noite mais misteriosa da cidade. Máscaras obrigatórias. Prêmio para a melhor fantasia.",
-    genre: "BAILE",
+    date: "15 JUN 2026",
+    title: "Yoga com Gatos",
+    desc: "Sessão de yoga relaxante acompanhada pelos nossos gatinhos. Todos os níveis são bem-vindos!",
+    genre: "BEM-ESTAR",
   },
   {
-    date: "INDEFINIDA",
-    title: "Anos 2000 Revival",
-    desc: "Viagem no tempo com os maiores sucessos dos anos 2000. Nostalgia e diversão garantidas.",
-    genre: "FUNK",
+    date: "22 JUN 2026",
+    title: "Noite do Café & Adoção",
+    desc: "Café especial, música ao vivo e a chance de encontrar seu novo melhor amigo felino.",
+    genre: "ADOÇÃO",
   },
 ]

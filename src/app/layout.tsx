@@ -15,13 +15,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vanilla Unicorn - A noite mais exclusiva da cidade",
+  title: "Cat Café - O café mais gato da cidade",
   description:
-    "Vanilla Unicorn - Boate noturna de luxo. Música, eventos e experiências inesquecíveis na cidade.",
+    "Cat Café - Café temático com gatos adoráveis. Venha tomar um café e fazer novos amigos felinos.",
   openGraph: {
-    title: "Vanilla Unicorn",
-    description: "A noite mais exclusiva da cidade",
-    siteName: "Vanilla Unicorn",
+    title: "Cat Café",
+    description: "O café mais gato da cidade",
+    siteName: "Cat Café",
     locale: "pt_BR",
     type: "website",
   },

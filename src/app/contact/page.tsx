@@ -1,21 +1,21 @@
 export default function ContactPage() {
   return (
-    <div className="min-h-screen py-20 px-4">
+    <div className="min-h-screen py-20 px-4 bg-blush">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-red mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-pink mb-4">
             Contato
           </h1>
-          <p className="text-zinc-400 max-w-lg mx-auto">
-            Faça sua reserva, tire dúvidas ou faça sugestões. Estamos prontos
-            para receber você.
+          <p className="text-brown max-w-lg mx-auto">
+            Faça sua reserva, tire dúvidas ou agende uma visita. Estamos prontos
+            para receber você e seu novo amigo felino.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="space-y-8">
             <div className="flex items-start gap-4">
-              <div className="mt-0.5 w-12 h-12 rounded-full bg-red/20 flex items-center justify-center text-red shrink-0">
+              <div className="mt-0.5 w-12 h-12 rounded-full bg-pink/20 flex items-center justify-center text-pink shrink-0">
                 <svg
                   width="22"
                   height="22"
@@ -29,14 +29,14 @@ export default function ContactPage() {
                 </svg>
               </div>
               <div>
-                <p className="text-zinc-400 text-xs uppercase tracking-widest mb-1">
+                <p className="text-brown text-xs uppercase tracking-widest mb-1">
                   Discord
                 </p>
                 <a
                   href="https://discord.gg/9MUsus2cWU"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-red hover:text-red-light transition-colors"
+                  className="text-pink hover:text-pink-light transition-colors"
                 >
                   https://discord.gg/9MUsus2cWU
                 </a>
@@ -44,7 +44,7 @@ export default function ContactPage() {
             </div>
 
             <div className="flex items-start gap-4">
-              <div className="mt-0.5 w-12 h-12 rounded-full bg-red/20 flex items-center justify-center text-red shrink-0">
+              <div className="mt-0.5 w-12 h-12 rounded-full bg-pink/20 flex items-center justify-center text-pink shrink-0">
                 <svg
                   width="22"
                   height="22"
@@ -57,23 +57,23 @@ export default function ContactPage() {
                 </svg>
               </div>
               <div>
-                <p className="text-zinc-400 text-xs uppercase tracking-widest mb-1">
+                <p className="text-brown text-xs uppercase tracking-widest mb-1">
                   Telefone
                 </p>
                 <div className="space-y-1">
-                  <p className="text-zinc-200">xxx-xxx — Ravena Hazzard</p>
-                  <p className="text-zinc-200">
-                    xxx-xxx — Preguiça de escrever
+                  <p className="text-brown-dark">(xx) xxxx-xxxx — Atendimento</p>
+                  <p className="text-brown-dark">
+                    (xx) xxxx-xxxx — Reservas
                   </p>
-                  <p className="text-zinc-200">
-                    xxx-xxx — Preguiça de Escrever dnv
+                  <p className="text-brown-dark">
+                    (xx) xxxx-xxxx — Adoções
                   </p>
                 </div>
               </div>
             </div>
 
             <div className="flex items-start gap-4">
-              <div className="mt-0.5 w-12 h-12 rounded-full bg-red/20 flex items-center justify-center text-red shrink-0">
+              <div className="mt-0.5 w-12 h-12 rounded-full bg-pink/20 flex items-center justify-center text-pink shrink-0">
                 <svg
                   width="22"
                   height="22"
@@ -87,16 +87,16 @@ export default function ContactPage() {
                 </svg>
               </div>
               <div>
-                <p className="text-zinc-400 text-xs uppercase tracking-widest mb-1">
+                <p className="text-brown text-xs uppercase tracking-widest mb-1">
                   Funcionamento
                 </p>
-                <p className="text-zinc-200">Seg-Dom: 08:00 | 03:00</p>
+                <p className="text-brown-dark">Seg-Dom: 09:00 | 22:00</p>
               </div>
             </div>
           </div>
 
-          <div className="rounded-2xl border-2 border-red/40 bg-red-deep/30 p-8 flex flex-col items-center text-center">
-            <div className="w-16 h-16 rounded-full bg-red/20 flex items-center justify-center text-red mb-5">
+          <div className="rounded-2xl border-2 border-pink/40 bg-blush-light p-8 flex flex-col items-center text-center">
+            <div className="w-16 h-16 rounded-full bg-pink/20 flex items-center justify-center text-pink mb-5">
               <svg
                 width="28"
                 height="28"
@@ -105,25 +105,26 @@ export default function ContactPage() {
                 stroke="currentColor"
                 strokeWidth="1.5"
               >
-                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
-                <circle cx="12" cy="7" r="4" />
+                <path d="M12 2C10.5 2 6 5 6 9c0 3 2.5 5.5 6 8 3.5-2.5 6-5 6-8 0-4-4.5-7-6-7z" />
+                <circle cx="9" cy="8" r="1" fill="currentColor" />
+                <circle cx="15" cy="8" r="1" fill="currentColor" />
               </svg>
             </div>
-            <h2 className="text-2xl font-bold text-red mb-2">
+            <h2 className="text-2xl font-bold text-pink mb-2">
               Estamos Contratando
             </h2>
-            <p className="text-zinc-400 mb-6">
-              Faça parte da equipe Vanilla Unicorn. Vagas abertas para:
+            <p className="text-brown mb-6">
+              Faça parte da equipe Cat Café. Vagas abertas para:
             </p>
             <div className="space-y-3 w-full">
-              <div className="py-3 px-4 rounded-xl border border-red/20 bg-night/50 text-zinc-200 font-medium">
-                Dançarino(a)
+              <div className="py-3 px-4 rounded-xl border border-pink/20 bg-blush text-brown-dark font-medium">
+                Barista
               </div>
-              <div className="py-3 px-4 rounded-xl border border-red/20 bg-night/50 text-zinc-200 font-medium">
-                Bartender
+              <div className="py-3 px-4 rounded-xl border border-pink/20 bg-blush text-brown-dark font-medium">
+                Cuidador de Gatos
               </div>
             </div>
-            <p className="text-zinc-500 text-sm mt-6">
+            <p className="text-brown text-sm mt-6">
               Candidate-se pelo Discord com sua apresentação.
             </p>
           </div>

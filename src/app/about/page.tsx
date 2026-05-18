@@ -1,127 +1,122 @@
 export default function AboutPage() {
-  const cargos = [
-    "Dono", "Recursos Humanos", "Gerente Geral", "Resp. Eventos",
-    "Resp. Vendas", "Recrutador", "Chefe de Segurança",
-    "Segurança", "Bartender", "Dançarino(a)",
+  const servicos = [
+    "Cafeteria", "Padaria Artesanal", "Salão de Eventos",
+    "Espaço de Adoção", "Loja de Acessórios", "Pet Shop",
+    "Clube do Café", "Área kids", "Coworking",
   ];
 
   return (
-    <div className="min-h-screen py-20 px-4">
+    <div className="min-h-screen py-20 px-4 bg-blush">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-red mb-4">Sobre Nós</h1>
-          <p className="text-zinc-400 max-w-lg mx-auto">
-            Mais que uma boate — uma experiência de status e sofisticação.
+          <h1 className="text-4xl md:text-5xl font-bold text-pink mb-4">Sobre Nós</h1>
+          <p className="text-brown max-w-lg mx-auto">
+            Mais que um café — uma experiência de afeto, aconchego e amor pelos gatos.
           </p>
         </div>
 
         <div className="space-y-16">
-          {/* 1. Introdução e A Visão */}
+          {/* 1. Nossa História */}
           <section>
-            <h2 className="text-2xl font-bold text-zinc-100 mb-6 flex items-center gap-3">
-              <span className="w-2 h-2 bg-red rounded-full" />
-              Introdução e A Visão
+            <h2 className="text-2xl font-bold text-brown-dark mb-6 flex items-center gap-3">
+              <span className="w-2 h-2 bg-pink rounded-full" />
+              Nossa História
             </h2>
-            <div className="space-y-4 text-zinc-400 leading-relaxed">
+            <div className="space-y-4 text-brown leading-relaxed">
               <p>
-                O objetivo é transformar o <strong className="text-zinc-200">Vanilla</strong> na experiência de
-                entretenimento mais exclusiva e sofisticada da cidade. O foco não é apenas vender bebidas,
-                mas vender <strong className="text-zinc-200">status</strong> e <strong className="text-zinc-200">diversão</strong>.
-                A casa opera dentro da mais estrita legalidade, oferecendo um ambiente seguro e de altíssimo
-                nível para eventos corporativos, festas privadas e noites de gala.
+                O <strong className="text-brown-dark">Cat Café</strong> nasceu do amor pelos gatos e da vontade de
+                criar um espaço onde as pessoas pudessem relaxar, tomar um café delicioso e se conectar com
+                felinos adoráveis. Somos um café temático que também funciona como um lar temporário para
+                gatos resgatados.
               </p>
-              <div className="rounded-2xl border border-red/20 bg-red-deep/30 p-6">
-                <h3 className="text-red font-semibold mb-2">Identidade Visual</h3>
+              <div className="rounded-2xl border border-pink/20 bg-blush-light p-6">
+                <h3 className="text-pink font-semibold mb-2">Missão</h3>
                 <p>
-                  Para transmitir essa exclusividade, a comunicação visual da boate, desde os cardápios até
-                  os convites VIP, adota uma estética minimalista e elegante, priorizando fundos escuros com
-                  textos e logotipos em vermelho. Menos poluição visual, mais sofisticação.
+                  Proporcionar momentos de afeto e bem-estar através da combinação perfeita entre café de
+                  qualidade e a companhia terapêutica dos gatos, promovendo a adoção responsável.
                 </p>
               </div>
             </div>
           </section>
 
-          {/* 2. Estrutura Hierárquica */}
+          {/* 2. Serviços */}
           <section>
-            <h2 className="text-2xl font-bold text-zinc-100 mb-6 flex items-center gap-3">
-              <span className="w-2 h-2 bg-red rounded-full" />
-              Estrutura Hierárquica Operacional
+            <h2 className="text-2xl font-bold text-brown-dark mb-6 flex items-center gap-3">
+              <span className="w-2 h-2 bg-pink rounded-full" />
+              Nossos Serviços
             </h2>
-            <p className="text-zinc-400 mb-6">
-              Para manter o padrão de excelência no atendimento, a equipe precisa ter responsabilidades
-              bem definidas. A estrutura de cargos da casa segue este formato:
+            <p className="text-brown mb-6">
+              Oferecemos uma experiência completa para os amantes de café e gatos:
             </p>
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
-              {cargos.map((cargo, i) => (
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+              {servicos.map((servico, i) => (
                 <div
                   key={i}
-                  className="px-4 py-3 rounded-xl border border-red/20 bg-red-deep/30 text-center text-sm text-zinc-300 hover:bg-red-deep/60 hover:border-red/40 transition-colors"
+                  className="px-4 py-3 rounded-xl border border-pink/20 bg-blush-light text-center text-sm text-brown-dark hover:bg-pink-deep hover:border-pink/40 transition-colors"
                 >
-                  {cargo}
+                  {servico}
                 </div>
               ))}
             </div>
           </section>
 
-          {/* 3. Gestão e Inovação */}
+          {/* 3. Adoção e Bem-Estar */}
           <section>
-            <h2 className="text-2xl font-bold text-zinc-100 mb-6 flex items-center gap-3">
-              <span className="w-2 h-2 bg-red rounded-full" />
-              Gestão e Inovação
+            <h2 className="text-2xl font-bold text-brown-dark mb-6 flex items-center gap-3">
+              <span className="w-2 h-2 bg-pink rounded-full" />
+              Adoção e Bem-Estar Animal
             </h2>
-            <p className="text-zinc-400 mb-6">
-              O público de elite exige um serviço impecável, sem margem para erros. O grande trunfo desta
-              gestão é a organização impecável dos bastidores.
+            <p className="text-brown mb-6">
+              Nosso compromisso vai além do café. Trabalhamos ativamente para encontrar lares amorosos
+              para nossos gatos resgatados.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="p-6 rounded-2xl border border-red/20 bg-red-deep/30">
-                <h3 className="text-red font-semibold mb-3">Sistema de Atendimento VIP</h3>
-                <p className="text-zinc-400 text-sm leading-relaxed">
-                  Um canal de comunicação direto e profissional para reservas. A aquisição de camarotes,
-                  agendamento de eventos fechados e compras de combos premium é feita através de um sistema
-                  de tickets automatizado, com botões interativos para garantir que o cliente seja respondido
-                  rapidamente pela equipe de vendas.
+              <div className="p-6 rounded-2xl border border-pink/20 bg-blush-light">
+                <h3 className="text-pink font-semibold mb-3">Processo de Adoção</h3>
+                <p className="text-brown text-sm leading-relaxed">
+                  Todos os nossos gatos são vacinados, castrados e microchipados. O processo de adoção
+                  inclui entrevista, visita de adaptação e acompanhamento pós-adoção para garantir
+                  que o animal encontre um lar definitivo e responsável.
                 </p>
               </div>
-              <div className="p-6 rounded-2xl border border-red/20 bg-red-deep/30">
-                <h3 className="text-red font-semibold mb-3">Controle e Sistema Disciplinar</h3>
-                <p className="text-zinc-400 text-sm leading-relaxed">
-                  Para garantir que os funcionários mantenham a postura exigida por um estabelecimento de
-                  luxo, será implementado um painel interno de gestão. Ele contará com um sistema de
-                  advertências estruturado, onde motivos de quebra de conduta são registrados e os logs
-                  são enviados automaticamente para um canal exclusivo da gerência.
+              <div className="p-6 rounded-2xl border border-pink/20 bg-blush-light">
+                <h3 className="text-pink font-semibold mb-3">Bem-Estar Animal</h3>
+                <p className="text-brown text-sm leading-relaxed">
+                  Os gatos têm livre circulação pelo café, com áreas exclusivas de descanso, brinquedos
+                  e enriquecimento ambiental. Seguimos rigorosos protocolos de higiene e saúde,
+                  com acompanhamento veterinário regular.
                 </p>
               </div>
             </div>
           </section>
 
-          {/* 4. Funcionamento e Eventos */}
+          {/* 4. Espaços */}
           <section>
-            <h2 className="text-2xl font-bold text-zinc-100 mb-6 flex items-center gap-3">
-              <span className="w-2 h-2 bg-red rounded-full" />
-              Funcionamento e Eventos
+            <h2 className="text-2xl font-bold text-brown-dark mb-6 flex items-center gap-3">
+              <span className="w-2 h-2 bg-pink rounded-full" />
+              Nossos Espaços
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {[
                 {
-                  title: "Eventos Noturnos",
-                  desc: "Traje esporte fino ou gala, voltados para o fechamento de negócios entre a elite da ECCO.",
+                  title: "Salão Principal",
+                  desc: "Espaço aconchegante com mesas, poltronas e os gatos circulando livremente. Ideal para encontros e trabalho.",
                 },
                 {
-                  title: "Festas Temáticas Premium",
-                  desc: "Noite do Cassino, Baile de Máscaras, Noite das Meninas — experiências temáticas de alto padrão.",
+                  title: "Espaço Zen",
+                  desc: "Sala silenciosa com almofadas e iluminação suave para leitura, meditação e momentos de calma com os gatos.",
                 },
                 {
-                  title: "Parcerias Corporativas",
-                  desc: "Aluguel do espaço para confraternizações da Prefeitura, Hospital, Mecânicas e outros parceiros.",
+                  title: "Varanda Jardim",
+                  desc: "Área externa coberta com plantas, fonte d'água e brinquedos para os gatos se divertirem ao ar livre.",
                 },
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="p-6 rounded-2xl border border-red/20 bg-red-deep/30 text-center hover:bg-red-deep/60 transition-colors"
+                  className="p-6 rounded-2xl border border-pink/20 bg-blush-light text-center hover:bg-pink-deep transition-colors"
                 >
-                  <h3 className="text-red font-semibold mb-2">{item.title}</h3>
-                  <p className="text-zinc-400 text-sm leading-relaxed">{item.desc}</p>
+                  <h3 className="text-pink font-semibold mb-2">{item.title}</h3>
+                  <p className="text-brown text-sm leading-relaxed">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -129,16 +124,16 @@ export default function AboutPage() {
 
           {/* 5. Economia */}
           <section>
-            <h2 className="text-2xl font-bold text-zinc-100 mb-6 flex items-center gap-3">
-              <span className="w-2 h-2 bg-red rounded-full" />
-              Economia
+            <h2 className="text-2xl font-bold text-brown-dark mb-6 flex items-center gap-3">
+              <span className="w-2 h-2 bg-pink rounded-full" />
+              Modelo de Negócio
             </h2>
-            <div className="p-6 rounded-2xl border border-red/20 bg-red-deep/30">
-              <p className="text-zinc-400 leading-relaxed">
-                A entrada de festas e eventos tem um valor acessível para manter a casa cheia, mas o
-                verdadeiro lucro vem da venda de <strong className="text-zinc-200">Camarotes VIP</strong>,
-                cartões de fidelidade (<strong className="text-zinc-200">Black Card</strong>) e combos de
-                bebidas exclusivas. Venda de status é o negócio.
+            <div className="p-6 rounded-2xl border border-pink/20 bg-blush-light">
+              <p className="text-brown leading-relaxed">
+                Funcionamos como um café tradicional com entrada acessível, onde o carro-chefe são nossas
+                bebidas especiais e comidas artesanais. Também oferecemos <strong className="text-brown-dark">planos de
+                assinatura</strong> para clientes frequentes, <strong className="text-brown-dark">eventos privados</strong> e
+                uma loja com produtos licenciados. Parte da renda é revertida para ONGs de proteção animal.
               </p>
             </div>
           </section>
