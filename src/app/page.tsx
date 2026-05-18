@@ -8,12 +8,11 @@ export default function Home() {
       <section className="relative min-h-[90vh] flex items-center overflow-hidden">
         <div className="relative z-10 w-full max-w-6xl mx-auto px-4 flex items-center justify-between gap-12">
           <div className="flex-1">
-            <p className="text-xl md:text-2xl text-pink mb-4">
-              O café mais gato da cidade
-            </p>
-            <p className="text-muted mb-10 max-w-lg leading-relaxed">
-              Café especial, gatos adoráveis e um ambiente aconchegante. O lugar perfeito para relaxar e se apaixonar.
-            </p>
+            <h1 className="text-5xl md:text-7xl font-bold tracking-wider leading-none mb-2">
+              <span className="text-pink">UWU</span>
+              <br />
+              <span className="text-white">CAFÉ</span>
+            </h1>
             <div className="flex flex-col sm:flex-row items-start gap-4">
               <Link
                 href="/events"
