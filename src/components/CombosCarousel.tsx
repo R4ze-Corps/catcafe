@@ -5,23 +5,23 @@ import Image from "next/image";
 
 const combos = [
   {
-    title: "Combo P",
-    items: "Café Premium + Croissant",
-    price: "R$ 24,90",
+    title: "Combo Pequeno",
+    items: "3 Bebidas + 3 Comidas",
+    price: "R$ 3.000",
     image: "/combo-p.png",
     desc: "Comece o dia com um café especial e um croissant fresquinho.",
   },
   {
-    title: "Combo M",
-    items: "Capuccino + Cookie",
-    price: "R$ 29,90",
+    title: "Combo Médio",
+    items: "6 Bebidas + 6 Comidas",
+    price: "R$ 6.000",
     image: "/combo-m.png",
     desc: "Um capuccino cremoso com um cookie artesanal.",
   },
   {
-    title: "Combo G",
-    items: "Latte + Bolo de Cenoura",
-    price: "R$ 34,90",
+    title: "Combo Grande",
+    items: "10 Bebidas + 10 Comidas",
+    price: "R$ 10.000",
     image: "/combo-g.png",
     desc: "Nosso latte perfeito acompanhado do clássico bolo de cenoura.",
   },
