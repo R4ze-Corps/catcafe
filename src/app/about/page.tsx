@@ -92,8 +92,8 @@ export default function AboutPage() {
                   desc: "Sala silenciosa com almofadas e iluminação suave para leitura, meditação e momentos de calma.",
                 },
                 {
-                  title: "Varanda Jardim",
-                  desc: "Área externa coberta com plantas, fonte d'água e brinquedos para os gatos se divertirem ao ar livre.",
+                  title: "Quintal",
+                  desc: "Área externa coberta com grama, e bancos para vista ao ar livre.",
                 },
               ].map((item, i) => (
                 <div
