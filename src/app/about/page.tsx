@@ -2,15 +2,15 @@ export default function AboutPage() {
   const hierarquia = [
     {
       cargo: "Gestão",
-      telefone: "000-000",
+      sub: ["Proprietário", "Gerente Geral"],
     },
     {
       cargo: "Recursos Humanos",
-      telefone: "000-000",
+      sub: ["Gerenciamento de baú", "Recrutador"],
     },
     {
-      cargo: "Gerência",
-      telefone: "000-000",
+      cargo: "Área do Café",
+      sub: ["Atendente", "Garçom", "Mini Atendentes"],
     },
   ];
 
@@ -58,11 +58,17 @@ export default function AboutPage() {
                 <div key={i} className="flex flex-col items-center w-full max-w-md">
                   <div className="flex items-center gap-4 w-full">
                     <div className="flex-1 h-px bg-pink/30" />
-                    <div className="px-6 py-3 rounded-xl border border-pink/20 bg-rose-light text-center min-w-[200px]">
-                      <div className="text-pink font-semibold">{h.cargo}</div>
-                      <div className="text-muted text-sm mt-1">{h.telefone}</div>
+                    <div className="px-6 py-3 rounded-xl border border-pink/20 bg-rose-light text-center text-pink font-semibold min-w-[200px]">
+                      {h.cargo}
                     </div>
                     <div className="flex-1 h-px bg-pink/30" />
+                  </div>
+                  <div className="flex flex-wrap justify-center gap-2 mt-3">
+                    {h.sub.map((s, j) => (
+                      <span key={j} className="px-4 py-1.5 rounded-lg border border-pink/10 bg-rose-light/50 text-sm text-muted">
+                        {s}
+                      </span>
+                    ))}
                   </div>
                 </div>
               ))}
