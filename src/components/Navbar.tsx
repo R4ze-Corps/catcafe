@@ -16,8 +16,8 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-rose/60 backdrop-blur-xl border-b border-pink/30">
-      <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-        <div className="hidden md:flex items-center gap-8">
+      <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between relative">
+        <div className="hidden md:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
           {links.map((l) => (
             <Link
               key={l.href}
