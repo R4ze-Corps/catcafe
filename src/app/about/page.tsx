@@ -1,10 +1,17 @@
 export default function AboutPage() {
   const hierarquia = [
-    { nivel: 1, cargo: "Donos" },
-    { nivel: 2, cargo: "Recursos Humanos" },
-    { nivel: 3, cargo: "Gerência" },
-    { nivel: 4, cargo: "Atendentes" },
-    { nivel: 5, cargo: "Atendentes JR" },
+    {
+      cargo: "Gestão",
+      sub: ["Proprietário", "Gerente Geral"],
+    },
+    {
+      cargo: "Recursos Humanos",
+      sub: ["Gerenciamento de baú", "Recrutador"],
+    },
+    {
+      cargo: "Área do Café",
+      sub: ["Atendente", "Garçom", "Mini Atendentes"],
+    },
   ];
 
   return (
@@ -46,14 +53,23 @@ export default function AboutPage() {
               <span className="w-2 h-2 bg-pink rounded-full" />
               Nossa Equipe
             </h2>
-            <div className="flex flex-col items-center gap-4">
+            <div className="flex flex-col items-center gap-6">
               {hierarquia.map((h, i) => (
-                <div key={i} className="flex items-center gap-4 w-full max-w-md">
-                  <div className="flex-1 h-px bg-pink/30" />
-                  <div className="px-6 py-3 rounded-xl border border-pink/20 bg-rose-light text-center text-pink font-semibold min-w-[200px]">
-                    {h.cargo}
+                <div key={i} className="flex flex-col items-center w-full max-w-md">
+                  <div className="flex items-center gap-4 w-full">
+                    <div className="flex-1 h-px bg-pink/30" />
+                    <div className="px-6 py-3 rounded-xl border border-pink/20 bg-rose-light text-center text-pink font-semibold min-w-[200px]">
+                      {h.cargo}
+                    </div>
+                    <div className="flex-1 h-px bg-pink/30" />
                   </div>
-                  <div className="flex-1 h-px bg-pink/30" />
+                  <div className="flex flex-wrap justify-center gap-2 mt-3">
+                    {h.sub.map((s, j) => (
+                      <span key={j} className="px-4 py-1.5 rounded-lg border border-pink/10 bg-rose-light/50 text-sm text-muted">
+                        {s}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               ))}
             </div>
