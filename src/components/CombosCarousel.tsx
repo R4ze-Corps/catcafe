@@ -5,21 +5,21 @@ import Image from "next/image";
 
 const combos = [
   {
-    title: "COMBO AURORA",
+    title: "Combo P",
     items: "Café Premium + Croissant",
     price: "R$ 24,90",
     image: "/combo-p.png",
     desc: "Comece o dia com um café especial e um croissant fresquinho.",
   },
   {
-    title: "COMBO MIAU",
+    title: "Combo M",
     items: "Capuccino + Cookie",
     price: "R$ 29,90",
     image: "/combo-m.png",
     desc: "Um capuccino cremoso com um cookie artesanal.",
   },
   {
-    title: "COMBO RONRON",
+    title: "Combo G",
     items: "Latte + Bolo de Cenoura",
     price: "R$ 34,90",
     image: "/combo-g.png",
@@ -73,7 +73,7 @@ export default function CombosCarousel() {
             </div>
           </div>
 
-          <div className="hidden md:flex shrink-0 items-center justify-center w-80 h-80 rounded-3xl border border-pink/20 bg-rose-light overflow-hidden">
+          <div className="hidden md:flex shrink-0 items-center justify-center w-80 h-80 rounded-3xl overflow-hidden">
             <Image
               src={s.image}
               alt={s.title}
