@@ -1,35 +1,29 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import Image from "next/image";
 
 const combos = [
   {
     title: "COMBO AURORA",
     items: "Café Premium + Croissant",
     price: "R$ 24,90",
-    emoji: "☕",
+    image: "/combo-p.png",
     desc: "Comece o dia com um café especial e um croissant fresquinho.",
   },
   {
     title: "COMBO MIAU",
     items: "Capuccino + Cookie",
     price: "R$ 29,90",
-    emoji: "🐱",
+    image: "/combo-m.png",
     desc: "Um capuccino cremoso com um cookie artesanal.",
   },
   {
     title: "COMBO RONRON",
     items: "Latte + Bolo de Cenoura",
     price: "R$ 34,90",
-    emoji: "🍰",
+    image: "/combo-g.png",
     desc: "Nosso latte perfeito acompanhado do clássico bolo de cenoura.",
-  },
-  {
-    title: "COMBO BIGODE",
-    items: "Mocha + Petit Gâteau",
-    price: "R$ 39,90",
-    emoji: "🧁",
-    desc: "Mocha intenso com um petit gâteau derretido.",
   },
 ];
 
@@ -79,8 +73,14 @@ export default function CombosCarousel() {
             </div>
           </div>
 
-          <div className="hidden md:flex shrink-0 items-center justify-center w-80 h-80 rounded-3xl border border-pink/20 bg-rose-light">
-            <span className="text-[8rem]">{s.emoji}</span>
+          <div className="hidden md:flex shrink-0 items-center justify-center w-80 h-80 rounded-3xl border border-pink/20 bg-rose-light overflow-hidden">
+            <Image
+              src={s.image}
+              alt={s.title}
+              width={320}
+              height={320}
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </div>
