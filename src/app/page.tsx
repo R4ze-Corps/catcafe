@@ -117,16 +117,8 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold text-pink mb-10">
             Próximo Evento
           </h2>
-          <div className="rounded-2xl border border-pink/20 bg-rose-light p-8 hover:bg-rose-light hover:border-pink/40 transition-all">
-            <p className="text-pink font-bold text-sm tracking-widest mb-4">
-              {events[0].date}
-            </p>
-            <h3 className="text-pink font-semibold text-xl mb-3">
-              {events[0].title}
-            </h3>
-            <p className="text-muted text-sm leading-relaxed">
-              {events[0].desc}
-            </p>
+          <div className="rounded-2xl border border-pink/20 bg-rose-light p-8 hover:bg-rose-light hover:border-pink/40 transition-all text-center">
+            <p className="text-muted text-lg">Indisponível</p>
           </div>
           <Link
             href="/events"
