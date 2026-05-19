@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { events } from "@/data/events";
+import CombosCarousel from "@/components/CombosCarousel";
 
 export default function Home() {
   return (
@@ -102,6 +103,8 @@ export default function Home() {
           </Link>
         </div>
       </section>
+
+      <CombosCarousel />
     </>
   );
 }
