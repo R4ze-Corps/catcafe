@@ -89,7 +89,7 @@ export default function AboutPage() {
                 },
                 {
                   title: "Espaço Zen",
-                  desc: "Sala silenciosa com almofadas e iluminação suave para leitura, meditação e momentos de calma com os gatos.",
+                  desc: "Sala silenciosa com almofadas e iluminação suave para leitura, meditação e momentos de calma.",
                 },
                 {
                   title: "Varanda Jardim",
