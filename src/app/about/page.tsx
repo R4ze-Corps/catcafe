@@ -102,7 +102,7 @@ export default function AboutPage() {
                 Funcionamos como um café tradicional com entrada acessível, onde o carro-chefe são nossas
                 bebidas especiais e comidas artesanais. Também oferecemos <strong className="text-pink">planos de
                 assinatura</strong> para clientes frequentes, <strong className="text-pink">eventos privados</strong> e
-                uma loja com produtos licenciados. Parte da renda é revertida para ONGs de proteção animal.
+                uma loja com produtos licenciados.
               </p>
             </div>
           </section>
