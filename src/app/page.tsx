@@ -47,9 +47,9 @@ export default function Home() {
                   stroke="currentColor"
                   strokeWidth="1.5"
                 >
-                  <path d="M12 2C10.5 2 6 5 6 9c0 3 2.5 5.5 6 8 3.5-2.5 6-5 6-8 0-4-4.5-7-6-7z" />
-                  <circle cx="9" cy="8" r="1" fill="currentColor" />
-                  <circle cx="15" cy="8" r="1" fill="currentColor" />
+                  <path d="M9 18V5l12-2v13" />
+                  <circle cx="6" cy="18" r="3" />
+                  <circle cx="18" cy="16" r="3" />
                 </svg>
               ),
               title: "Músicas",
