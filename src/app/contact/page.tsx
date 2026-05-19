@@ -118,10 +118,10 @@ export default function ContactPage() {
             </p>
             <div className="space-y-3 w-full">
               <div className="py-3 px-4 rounded-xl border border-pink/20 bg-rose-light text-pink font-medium">
-                Barista
+                Gerência
               </div>
               <div className="py-3 px-4 rounded-xl border border-pink/20 bg-rose-light text-pink font-medium">
-                Cuidador de Gatos
+                Atendimento
               </div>
             </div>
             <p className="text-muted text-sm mt-6">
