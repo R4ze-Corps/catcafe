@@ -85,7 +85,7 @@ export default function AboutPage() {
               {[
                 {
                   title: "Salão Principal",
-                  desc: "Espaço aconchegante com mesas, poltronas e os gatos circulando livremente. Ideal para encontros e trabalho.",
+                  desc: "Espaço aconchegante com mesas, poltronas é Ideal para encontros e trabalho.",
                 },
                 {
                   title: "Espaço Zen",
