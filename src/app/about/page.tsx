@@ -26,8 +26,7 @@ export default function AboutPage() {
               <p>
                 O <strong className="text-pink">Cat Café</strong> nasceu do amor pelos gatos e da vontade de
                 criar um espaço onde as pessoas pudessem relaxar, tomar um café delicioso e se conectar com
-                felinos adoráveis. Somos um café temático que também funciona como um lar temporário para
-                gatos resgatados.
+                felinos adoráveis. Somos um café totalmente temático quando se trata de gatos.
               </p>
               <div className="rounded-2xl border border-pink/20 bg-rose-light p-6">
                 <h3 className="text-pink font-semibold mb-2">Missão</h3>
