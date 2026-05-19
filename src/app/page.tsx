@@ -87,6 +87,8 @@ export default function Home() {
         </div>
       </section>
 
+      <CombosCarousel />
+
       <section className="py-20 px-4 border-t border-pink/20">
         <div className="max-w-xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-pink mb-10">Próximo Evento</h2>
@@ -103,8 +105,6 @@ export default function Home() {
           </Link>
         </div>
       </section>
-
-      <CombosCarousel />
     </>
   );
 }
