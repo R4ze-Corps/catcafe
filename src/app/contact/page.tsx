@@ -61,12 +61,12 @@ export default function ContactPage() {
                   Telefone
                 </p>
                 <div className="space-y-1">
-                  <p className="text-pink">(xx) xxxx-xxxx — Atendimento</p>
+                  <p className="text-pink">000-000 — Gestão</p>
                   <p className="text-pink">
-                    (xx) xxxx-xxxx — Reservas
+                    000-000 — Recursos Humanos
                   </p>
                   <p className="text-pink">
-                    (xx) xxxx-xxxx — Adoções
+                    000-000 — Gerência
                   </p>
                 </div>
               </div>
