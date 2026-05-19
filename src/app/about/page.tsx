@@ -1,8 +1,10 @@
 export default function AboutPage() {
-  const servicos = [
-    "Cafeteria", "Padaria Artesanal", "Salão de Eventos",
-    "Espaço de Adoção", "Loja de Acessórios", "Pet Shop",
-    "Clube do Café", "Área kids", "Coworking",
+  const hierarquia = [
+    { nivel: 1, cargo: "Donos" },
+    { nivel: 2, cargo: "Recursos Humanos" },
+    { nivel: 3, cargo: "Gerência" },
+    { nivel: 4, cargo: "Atendentes" },
+    { nivel: 5, cargo: "Atendentes JR" },
   ];
 
   return (
@@ -38,22 +40,20 @@ export default function AboutPage() {
             </div>
           </section>
 
-          {/* 2. Serviços */}
+          {/* 2. Hierarquia */}
           <section>
             <h2 className="text-2xl font-bold text-pink mb-6 flex items-center gap-3">
               <span className="w-2 h-2 bg-pink rounded-full" />
-              Nossos Serviços
+              Nossa Equipe
             </h2>
-            <p className="text-muted mb-6">
-              Oferecemos uma experiência completa para os amantes de café e gatos:
-            </p>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-              {servicos.map((servico, i) => (
-                <div
-                  key={i}
-                  className="px-4 py-3 rounded-xl border border-pink/20 bg-rose-light text-center text-sm text-pink hover:bg-rose-light hover:border-pink/40 transition-colors"
-                >
-                  {servico}
+            <div className="flex flex-col items-center gap-4">
+              {hierarquia.map((h, i) => (
+                <div key={i} className="flex items-center gap-4 w-full max-w-md">
+                  <div className="flex-1 h-px bg-pink/30" />
+                  <div className="px-6 py-3 rounded-xl border border-pink/20 bg-rose-light text-center text-pink font-semibold min-w-[200px]">
+                    {h.cargo}
+                  </div>
+                  <div className="flex-1 h-px bg-pink/30" />
                 </div>
               ))}
             </div>
