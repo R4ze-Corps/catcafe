@@ -59,36 +59,6 @@ export default function AboutPage() {
             </div>
           </section>
 
-          {/* 3. Adoção e Bem-Estar */}
-          <section>
-            <h2 className="text-2xl font-bold text-pink mb-6 flex items-center gap-3">
-              <span className="w-2 h-2 bg-pink rounded-full" />
-              Adoção e Bem-Estar Animal
-            </h2>
-            <p className="text-muted mb-6">
-              Nosso compromisso vai além do café. Trabalhamos ativamente para encontrar lares amorosos
-              para nossos gatos resgatados.
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="p-6 rounded-2xl border border-pink/20 bg-rose-light">
-                <h3 className="text-pink font-semibold mb-3">Processo de Adoção</h3>
-                <p className="text-muted text-sm leading-relaxed">
-                  Todos os nossos gatos são vacinados, castrados e microchipados. O processo de adoção
-                  inclui entrevista, visita de adaptação e acompanhamento pós-adoção para garantir
-                  que o animal encontre um lar definitivo e responsável.
-                </p>
-              </div>
-              <div className="p-6 rounded-2xl border border-pink/20 bg-rose-light">
-                <h3 className="text-pink font-semibold mb-3">Bem-Estar Animal</h3>
-                <p className="text-muted text-sm leading-relaxed">
-                  Os gatos têm livre circulação pelo café, com áreas exclusivas de descanso, brinquedos
-                  e enriquecimento ambiental. Seguimos rigorosos protocolos de higiene e saúde,
-                  com acompanhamento veterinário regular.
-                </p>
-              </div>
-            </div>
-          </section>
-
           {/* 4. Espaços */}
           <section>
             <h2 className="text-2xl font-bold text-pink mb-6 flex items-center gap-3">
